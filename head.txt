@@ -1,0 +1,157 @@
+[1] 인공지능 첫걸음
+  인공지능에 대한 오해와 진실
+    인공지능은 로봇이다?
+    인공지능은 스스로 똑똑해질 수 있다?
+    인공지능도 감정이 있다?
+  인공지능(Artificial Intelligence;AI)이란
+    강 인공지능, 약 인공지능
+      강 인공지능 (Strong AI, General AI)
+      약 인공지능 (Weak AI, Narrow AI)
+      범용성과 전문성
+    넓은 의미의 AI, 좁은 의미의 AI
+      특징(feature) 추출과 의사 결정
+   마무리
+
+[2] 기계도 사람처럼 판단할 수 있을까?
+  머신러닝과 딥러닝
+    머신러닝이 다루는 정형 데이터(structured data)
+    딥러닝이 다루는 비정형 데이터(unstructured data)
+  긍정 리뷰와 부정 리뷰 자동 분류하기
+    특징 및 분류기준
+    예외 CASE
+    모라벡의 역설(Moravec's Paradox)
+    사람처럼 사고하기
+  인공신경망(Artificial Neural Network)
+    인공뉴런(Artificial Neuron)
+    딥러닝이 유행하게 된 배경
+  마무리
+
+[3] 시각을 얻은 인공지능
+  이미지를 인식하는 인공지능
+    인공신경망 연산
+    기계가 이미지를 인식하는 방법
+  Convolutional Neural Network(CNN)
+    특징 추출(Feature Extraction)
+    태스크 수행
+      Classification
+      Detection
+      Segmentation
+  ImageNet Large Scale Visual Recognition Competition
+  마무리
+
+[4] 언어를 이해하는 인공지능
+  언어를 인식하는 인공지능
+    자연어이해(NLU; Natural Language Understanding)
+      자연(Natural)
+      언어(Language)
+      이해(Understanding)
+  기계에게 사람의 언어를 인식시키려면?
+    Tokenizing(Parsing)
+    워드임베딩(word embedding)
+      원-핫 인코딩(One-hot Encoding)
+      CBOW와 SKIPGRAM
+  다양한 자연어이해 과제들 
+    문장/문서 분류(Sentence/Document Classification)
+    Sequence-to-Sequence
+    질의 응답(Question Answering)
+  마무리
+
+[5] 과거의 경험을 통해 현재를 배우는 인공지능
+  시간 흐름에 따른 데이터(Sequential data) 처리하기
+  Recurrent Neural Network(RNN; 순환 신경망)
+    장점
+      RNN은 시간 흐름에 따른 과거 정보를 누적할 수 있다
+      RNN은 가변 길이의 데이터를 처리할 수 있다
+      RNN은 다양한 구성의 모델을 만들 수 있다
+    단점
+      연산 속도가 느리다
+      학습이 불안정하다
+      실질적으로 과거 정보를 잘 활용할 수 있는 모델이 아니다
+  성능 보완
+    LSTM(Long-short term memory)
+  활용 사례
+  마무리
+  
+[6] 헛똑똑이 인공지능 제대로 가르치기
+  AI Process
+    Offline Process
+    Online Process
+  오버피팅(Overfitting)과 일반화 성능(Generalization)
+    Training, Validation, Test
+      Training set
+      Validation set
+      Test set
+    학습 곡선(Learning curve) 확인하기
+  Regularization
+    데이터 증강(Data Augmentation)
+    Capacity 줄이기 
+    조기 종료(Early stopping)
+    드롭아웃(Dropout)
+  마무리
+  
+[7] 다시쓰고 바꿔쓰자! 인공지능 재활용하기
+  쉽지 않은 인공지능 적용하기
+    구체적이지 않으며 불명확한 태스크
+    적은 데이터, 낮은 품질의 데이터
+    다른 도메인 환경
+  Transfer Learning : 한번 만든 인공지능 모델 우려먹기
+    Catastrophic forgetting : 치명적인 기억상실!
+    더 나은 Transfer Learning을 위한 방법
+      레이어 동결(Layer Freezing)
+      학습률 차별(Discriminative Fine Tuning)
+  Transfer Learning 모델 이용
+    컴퓨터 비전에서의 Transfer Learning
+    자연어 이해(NLU)에서의 Transfer Learning
+  마무리
+
+[8] 준비된 인공지능, Pre-trained AI
+  Pre-training: 니가 뭘 요청할지 몰라서 일단 다 공부해놨어
+  대규모 데이터에 대한 Pre-training
+    시각 데이터에 대한 사전학습
+    언어 데이터에 대한 사전학습
+  Self-Supervised Learning: 나 혼자 어떻게든 해볼게
+    예: 이미지 데이터를 위한 Self-Supervised Learning
+    예: 텍스트 데이터를 위한 Self-Supervised Learning
+    예: Google BERT(Bidirectional Encoder Representations from Transformers)
+  마무리
+
+[9] 족집게 데이터로 인공지능 학습하기
+  데이터의 바다, 정보의 홍수
+  Active Learning: 족집게 데이터로 공부하기
+    Active Learning의 절차
+    Query Strategy: 이 데이터를 제게 가르쳐 주십시오!
+      Uncertainty Sampling
+      Query by committee
+  마무리
+  
+[10] 뭐이 중한지 알아보는 인공지능
+  긴 입력 데이터 처리하기
+  어텐션 메커니즘(Attention mechanism)
+    어텐션 스코어(Attention score)
+    컨텍스트 벡터(Context vector)
+  XAI로서의 어텐션
+    텍스트에서의 어텐션
+    이미지에서의 어텐션
+  Attention 전성시대, Transformer
+  마무리
+  
+[11] 스스로 진화하는 인공지능, AutoML
+  사람의 손을 필요로 하는 인공지능
+  스스로 진화하는 인공지능, AutoML
+    하이퍼파라미터 탐색 자동화
+      Grid Search
+      Random Search
+    아키텍처 탐색 자동화
+  AutoML 특징
+  AutoML 서비스  
+  마무리
+  
+[12] 설명 가능한 인공지능, XAI
+  종종 이해할 수 없는 결정을 내리는 AI
+  설명 가능한 인공지능, XAI(eXplainable Artificial Intelligence)
+    XAI의 필요성
+  XAI를 위한 접근법
+    어텐션 메커니즘(Attention Mechanism)을 활용한 XAI
+    설명하는 법 학습하기(Learn to explain)
+  마무리
+  
